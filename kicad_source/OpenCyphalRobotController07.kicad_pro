@@ -457,12 +457,16 @@
       "VoltageRegulator"
     ],
     [
-      "6e8308f0-89f3-4fa9-9456-115654893910",
-      "History"
+      "b10c9418-4dea-4782-a464-4f802c008cb3",
+      "inout_output"
     ],
     [
       "6c7bda25-c20e-4e94-995a-5eb8ebde7262",
       "BNO085"
+    ],
+    [
+      "6e8308f0-89f3-4fa9-9456-115654893910",
+      "History"
     ]
   ],
   "text_variables": {}
