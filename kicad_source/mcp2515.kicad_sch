@@ -1228,7 +1228,7 @@
     (uuid 00000000-0000-0000-0000-00005ed95d76)
     (property "Reference" "Y1" (id 0) (at 170.18 75.692 0))
     (property "Value" "RH100-16.000-16-3030-EXT-TR" (id 1) (at 170.18 78.0034 0))
-    (property "Footprint" "crystals:Crystal_SMD_0603_4Pads" (id 2) (at 170.18 86.36 0)
+    (property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" (id 2) (at 170.18 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 170.18 81.28 0))
