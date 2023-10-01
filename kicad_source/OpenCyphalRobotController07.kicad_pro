@@ -392,7 +392,7 @@
       "idf": "",
       "netlist": "HighPowerMotorFeatherWing.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../CyphalRobotController07-CAN.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
