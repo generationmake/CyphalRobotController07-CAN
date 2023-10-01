@@ -3054,10 +3054,10 @@
       (reference "L3") (unit 1) (value "Label") (footprint "generationmake:opencyphal_small")
     )
     (path "/f6991e94-53cb-4fca-aa37-9cb14fb10fcb/cc7c52c2-c9a4-4414-a92d-1c661fc30d72"
-      (reference "L4") (unit 1) (value "744373580022") (footprint "L_power:WE-LHMI80xx")
+      (reference "L4") (unit 1) (value "744373580022") (footprint "Inductor_SMD:L_Wuerth_HCI-7050")
     )
     (path "/f6991e94-53cb-4fca-aa37-9cb14fb10fcb/00000000-0000-0000-0000-00005de3ef57"
-      (reference "L5") (unit 1) (value "74437346220") (footprint "L_power:WE-LHMI70xx")
+      (reference "L5") (unit 1) (value "74437346220") (footprint "Inductor_SMD:L_Wuerth_HCI-7050")
     )
     (path "/00000000-0000-0000-0000-00005e401602"
       (reference "MECH1") (unit 1) (value "MHP_3.2_5.8") (footprint "generationmake:MHP_3.2_5.8")
@@ -3082,12 +3082,6 @@
     )
     (path "/f6991e94-53cb-4fca-aa37-9cb14fb10fcb/00000000-0000-0000-0000-00005e9947a1"
       (reference "MECH8") (unit 1) (value "MHP_3.2_5.0") (footprint "generationmake:MHP_3.2_5.8")
-    )
-    (path "/f6991e94-53cb-4fca-aa37-9cb14fb10fcb/00000000-0000-0000-0000-00005e99a7d8"
-      (reference "MECH9") (unit 1) (value "MHP_3.2_5.0") (footprint "generationmake:MHP_3.2_5.8")
-    )
-    (path "/f6991e94-53cb-4fca-aa37-9cb14fb10fcb/00000000-0000-0000-0000-00005e99a7e2"
-      (reference "MECH10") (unit 1) (value "MHP_3.2_5.0") (footprint "generationmake:MHP_3.2_5.8")
     )
     (path "/f6991e94-53cb-4fca-aa37-9cb14fb10fcb/00000000-0000-0000-0000-00005e99a7ec"
       (reference "MECH11") (unit 1) (value "MHP_3.2_5.0") (footprint "generationmake:MHP_3.2_5.8")
@@ -3330,7 +3324,7 @@
       (reference "Y1") (unit 1) (value "RH100-16.000-16-3030-EXT-TR") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
     )
     (path "/6c7bda25-c20e-4e94-995a-5eb8ebde7262/00000000-0000-0000-0000-00005f6dcf85"
-      (reference "Y2") (unit 1) (value "DNI") (footprint "crystals:Crystal_SMD_3.2x1.5mm_2Pad")
+      (reference "Y2") (unit 1) (value "DNI") (footprint "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm")
     )
   )
 )

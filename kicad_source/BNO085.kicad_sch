@@ -1190,7 +1190,7 @@
     (property "Value" "DNI" (id 1) (at 112.7252 34.163 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "crystals:Crystal_SMD_3.2x1.5mm_2Pad" (id 2) (at 112.7252 35.3314 90)
+    (property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm" (id 2) (at 112.7252 35.3314 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "" (id 3) (at 110.49 33.02 0))
