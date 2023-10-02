@@ -1,0 +1,444 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# +3V3-power-supply
+#
+DEF +3V3-power-supply #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+3V3-power-supply" 0 140 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# +3V3-power-supply-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue-HighPowerMotorFeatherWing-rescue
+#
+DEF +3V3-power-supply-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue-HighPowerMotorFeatherWing-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+3V3-power-supply-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue-HighPowerMotorFeatherWing-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# 74437346082-L_power
+#
+DEF 74437346082-L_power L 0 0 N N 1 F N
+F0 "L" 0 100 50 H V C CNN
+F1 "74437346082-L_power" 0 -50 50 H V C CNN
+F2 "L_power:WE-LHMI70xx" -100 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+A -150 0 50 1 1799 0 1 0 N -100 0 -200 0
+A -50 0 50 1 1799 0 1 0 N 0 0 -100 0
+A 50 0 50 1 1799 0 1 0 N 100 0 0 0
+A 150 0 50 1 1799 0 1 0 N 200 0 100 0
+X 1 1 -250 0 50 R 30 30 1 1 I
+X 2 2 250 0 50 L 30 30 1 1 I
+ENDDRAW
+ENDDEF
+#
+# 74437346220-L_power
+#
+DEF 74437346220-L_power L 0 0 N N 1 F N
+F0 "L" 0 100 50 H V C CNN
+F1 "74437346220-L_power" 0 -50 50 H V C CNN
+F2 "L_power:WE-LHMI70xx" -100 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+A -150 0 50 1 1799 0 1 0 N -100 0 -200 0
+A -50 0 50 1 1799 0 1 0 N 0 0 -100 0
+A 50 0 50 1 1799 0 1 0 N 100 0 0 0
+A 150 0 50 1 1799 0 1 0 N 200 0 100 0
+X 1 1 -250 0 50 R 30 30 1 1 I
+X 2 2 250 0 50 L 30 30 1 1 I
+ENDDRAW
+ENDDEF
+#
+# 74xx08-IC_logic-HighPowerMotorFeatherWing-rescue
+#
+DEF 74xx08-IC_logic-HighPowerMotorFeatherWing-rescue U 0 40 Y Y 1 F N
+F0 "U" 50 550 60 H V C CNN
+F1 "74xx08-IC_logic-HighPowerMotorFeatherWing-rescue" 200 -650 60 H V C CNN
+F2 "SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" 300 -150 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S 0 500 400 -600 0 1 0 N
+X 1A 1 -100 300 100 R 50 50 1 1 I
+X 3A 10 -100 -100 100 R 50 50 1 1 I
+X 4Y 11 500 -300 100 L 50 50 1 1 I
+X 4B 12 -100 -400 100 R 50 50 1 1 I
+X 4A 13 -100 -300 100 R 50 50 1 1 I
+X VCC 14 500 400 100 L 50 50 1 1 I
+X 1B 2 -100 200 100 R 50 50 1 1 I
+X 1Y 3 500 300 100 L 50 50 1 1 I
+X 2A 4 -100 100 100 R 50 50 1 1 I
+X 2B 5 -100 0 100 R 50 50 1 1 I
+X 2Y 6 500 100 100 L 50 50 1 1 I
+X GND 7 -100 -500 100 R 50 50 1 1 I
+X 3Y 8 500 -100 100 L 50 50 1 1 I
+X 3B 9 -100 -200 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# ADAFRUIT_FEATHER-MODULE_compute-HighPowerMotorFeatherWing-rescue
+#
+DEF ADAFRUIT_FEATHER-MODULE_compute-HighPowerMotorFeatherWing-rescue CN 0 40 Y Y 1 F N
+F0 "CN" 0 850 60 H V C CNN
+F1 "ADAFRUIT_FEATHER-MODULE_compute-HighPowerMotorFeatherWing-rescue" 0 -850 60 H V C CNN
+F2 "MODULE_compute:ADAFRUIT_FEATHER_HOLES" 150 750 60 H I C CNN
+F3 "" 0 -200 60 H V C CNN
+DRAW
+S -400 800 400 -800 0 1 0 N
+X RESET 1 -600 750 200 R 50 50 1 1 I
+X A5 10 -600 -150 200 R 50 50 1 1 I
+X 15/SCK 11 -600 -250 200 R 50 50 1 1 I
+X 16/MOSI 12 -600 -350 200 R 50 50 1 1 I
+X 14/MISO 13 -600 -450 200 R 50 50 1 1 I
+X 0/RX 14 -600 -550 200 R 50 50 1 1 I
+X 1/TX 15 -600 -650 200 R 50 50 1 1 I
+X GND 16 -600 -750 200 R 50 50 1 1 I
+X 2/SDA 17 600 -750 200 L 50 50 1 1 I
+X 3/SCL 18 600 -650 200 L 50 50 1 1 I
+X 5 19 600 -550 200 L 50 50 1 1 I
+X 3V3 2 -600 650 200 R 50 50 1 1 I
+X 6 20 600 -450 200 L 50 50 1 1 I
+X 9 21 600 -350 200 L 50 50 1 1 I
+X 10 22 600 -250 200 L 50 50 1 1 I
+X 11 23 600 -150 200 L 50 50 1 1 I
+X 12 24 600 -50 200 L 50 50 1 1 I
+X 13 25 600 50 200 L 50 50 1 1 I
+X VBUS 26 600 150 200 L 50 50 1 1 I
+X EN 27 600 250 200 L 50 50 1 1 I
+X VBAT 28 600 350 200 L 50 50 1 1 I
+X AREF 3 -600 550 200 R 50 50 1 1 I
+X GND 4 -600 450 200 R 50 50 1 1 I
+X A0 5 -600 350 200 R 50 50 1 1 I
+X A1 6 -600 250 200 R 50 50 1 1 I
+X A2 7 -600 150 200 R 50 50 1 1 I
+X A3 8 -600 50 200 R 50 50 1 1 I
+X A4 9 -600 -50 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# ADS1015-IC_interface_i2c-HighPowerMotorFeatherWing-rescue
+#
+DEF ADS1015-IC_interface_i2c-HighPowerMotorFeatherWing-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 900 60 H V C CNN
+F1 "ADS1015-IC_interface_i2c-HighPowerMotorFeatherWing-rescue" 0 0 60 H V C CNN
+F2 "SSOP:MSOP-10_3x3mm_Pitch0.5mm" 600 -150 60 H I C CNN
+F3 "" 600 -150 60 H I C CNN
+DRAW
+S -350 850 350 50 0 1 0 N
+X ADDR 1 -550 500 200 R 50 50 1 1 P
+X SCL 10 -550 700 200 R 50 50 1 1 P
+X ALERT/RDY 2 -550 400 200 R 50 50 1 1 P
+X GND 3 -550 100 200 R 50 50 1 1 P
+X AIN0 4 550 800 200 L 50 50 1 1 P
+X AIN1 5 550 700 200 L 50 50 1 1 P
+X AIN2 6 550 600 200 L 50 50 1 1 P
+X AIN3 7 550 500 200 L 50 50 1 1 P
+X VCC 8 -550 200 200 R 50 50 1 1 P
+X SDA 9 -550 800 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CP1_Small-devices
+#
+DEF CP1_Small-devices C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CP1_Small-devices" 10 -80 50 H V L CNN
+F2 "capacitors:TantalC_SizeD_EIA-7343_Wave" 100 -200 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ CP*
+ Elko*
+ TantalC*
+ C*elec
+ c_elec*
+ SMD*_Pol
+$ENDFPLIST
+DRAW
+P 2 0 1 12 -60 20 60 20 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+A 0 -140 125 614 1186 0 1 12 N 60 -30 -60 -30
+X ~ 1 0 100 80 D 40 40 1 1 P
+X ~ 2 0 -100 80 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C_0603-devices
+#
+DEF C_0603-devices C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "C_0603-devices" 10 -80 50 H V L CNN
+F2 "capacitors:C_0603" 0 -150 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 75 D 40 40 1 1 P
+X ~ 2 0 -100 80 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_Small-devices
+#
+DEF D_Small-devices D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "D_Small-devices" -150 -80 50 H V L CNN
+F2 "" 0 0 50 V V C CNN
+F3 "" 0 0 50 V V C CNN
+$FPLIST
+ Diode_*
+ D-Pak_TO252AA
+ *SingleDiode
+ *SingleDiode*
+ *_Diode_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue-HighPowerMotorFeatherWing-rescue
+#
+DEF GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue-HighPowerMotorFeatherWing-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue-HighPowerMotorFeatherWing-rescue" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# GND-power-supply
+#
+DEF GND-power-supply #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND-power-supply" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# IFX007T-motor-driver-HighPowerMotorFeatherWing-rescue
+#
+DEF IFX007T-motor-driver-HighPowerMotorFeatherWing-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 350 50 H V C CNN
+F1 "IFX007T-motor-driver-HighPowerMotorFeatherWing-rescue" 0 -350 50 H V C CNN
+F2 "SOT_TO:TO-263-7Lead" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -250 300 350 -300 0 1 0 N
+X GND 1 450 -250 100 L 50 50 1 1 I
+X IN 2 -350 50 100 R 50 50 1 1 I
+X INH 3 -350 -50 100 R 50 50 1 1 I
+X OUT 4 450 50 100 L 50 50 1 1 I
+X SR 5 -350 -150 100 R 50 50 1 1 I
+X IS 6 -350 150 100 R 50 50 1 1 I
+X VS 7 450 250 100 L 50 50 1 1 I
+X OUT 8 450 -50 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# IFX91041EFJ-voltage-regulators-HighPowerMotorFeatherWing-rescue
+#
+DEF IFX91041EFJ-voltage-regulators-HighPowerMotorFeatherWing-rescue U 0 40 Y Y 1 F N
+F0 "U" -500 725 50 H V C CNN
+F1 "IFX91041EFJ-voltage-regulators-HighPowerMotorFeatherWing-rescue" -350 -875 50 H V C CNN
+F2 "SOIC:SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm" -100 -100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -550 675 550 -800 0 1 0 N
+X SYNC 1 -750 -150 200 R 50 50 1 1 I
+X GND 2 -750 -500 200 R 50 50 1 1 I
+X COMP 3 -750 50 200 R 50 50 1 1 I
+X FB 4 750 -400 200 L 50 50 1 1 I
+X BDS 5 750 500 200 L 50 50 1 1 I
+X BUO 6 750 100 200 L 50 50 1 1 I
+X EN 7 -750 250 200 R 50 50 1 1 I
+X VS 8 -750 500 200 R 50 50 1 1 I
+X PAD 9 -750 -650 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MHP_3.2_5.0-MECH_mounting-holes
+#
+DEF MHP_3.2_5.0-MECH_mounting-holes MECH 0 40 Y Y 1 F N
+F0 "MECH" 0 150 50 H V C CNN
+F1 "MHP_3.2_5.0-MECH_mounting-holes" 50 -150 50 H V C CNN
+F2 "MECH_mounting_holes:MHP_3.2_5.0" -100 50 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 100 100 -100 1 1 0 N
+X 1 1 -300 0 200 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# OPA2374AIDCN-opamps
+#
+DEF OPA2374AIDCN-opamps U 0 20 Y Y 2 F N
+F0 "U" -50 200 60 H V L CNN
+F1 "OPA2374AIDCN-opamps" -50 -250 60 H V L CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 4 0 1 6 -200 200 200 0 -200 -200 -200 200 N
+X V- 4 -100 -400 250 U 40 40 0 1 W
+X V+ 8 -100 400 250 D 40 40 0 1 W
+X ~ 1 500 0 300 L 40 40 1 1 O
+X - 2 -500 100 300 R 40 40 1 1 I
+X + 3 -500 -100 300 R 40 40 1 1 I
+X + 5 -500 -100 300 R 40 40 2 1 I
+X - 6 -500 100 300 R 40 40 2 1 I
+X ~ 7 500 0 300 L 40 40 2 1 O
+ENDDRAW
+ENDDEF
+#
+# Q_NPN_BEC-devices
+#
+DEF Q_NPN_BEC-devices Q 0 0 Y N 1 F N
+F0 "Q" 300 50 50 H V R CNN
+F1 "Q_NPN_BEC-devices" 600 -50 50 H V R CNN
+F2 "" 200 100 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+C 50 0 111 0 1 10 N
+X B 1 -200 0 225 R 50 50 1 1 I
+X E 2 100 -200 100 U 50 50 1 1 P
+X C 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Q_PMOS_GDS-devices
+#
+DEF Q_PMOS_GDS-devices Q 0 0 Y N 1 F N
+F0 "Q" 300 50 50 H V R CNN
+F1 "Q_PMOS_GDS-devices" 650 -50 50 H V R CNN
+F2 "" 200 100 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 2 0 1 0 30 -70 100 -70 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 0 30 0 100 0 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 0 30 70 100 70 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 -70 100 -100 N
+P 2 0 1 0 100 -70 100 0 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 10 10 75 10 -75 10 -75 N
+P 4 0 1 0 90 0 50 -15 50 15 90 0 F
+C 50 0 111 0 1 10 N
+X G 1 -200 0 210 R 50 50 1 1 I
+X D 2 100 200 100 D 50 50 1 1 P
+X S 3 100 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_0603-devices
+#
+DEF R_0603-devices R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "R_0603-devices" 30 -40 50 H V L CNN
+F2 "resistors:R_0603" 0 -150 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Resistor_*
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 40 40 1 1 P
+X ~ 2 0 -100 30 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# VIN-power-supply
+#
+DEF VIN-power-supply #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "VIN-power-supply" 0 150 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 2 0 1 0 0 0 0 50 N
+C 0 75 25 0 1 0 N
+X VIN 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# WR-TBL_691313710002-mechanical-connectors
+#
+DEF WR-TBL_691313710002-mechanical-connectors P 0 40 Y N 1 F N
+F0 "P" 0 150 50 H V C CNN
+F1 "WR-TBL_691313710002-mechanical-connectors" 100 0 50 V V C CNN
+F2 "mechanical-connectors:WR-TBL_691313710002" -100 50 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Pin_Header_Straight_1X02
+ Pin_Header_Angled_1X02
+ Socket_Strip_Straight_1X02
+ Socket_Strip_Angled_1X02
+$ENDFPLIST
+DRAW
+S -50 -45 10 -55 0 1 0 N
+S -50 55 10 45 0 1 0 N
+S -50 100 50 -100 0 1 0 N
+X P1 1 -200 50 150 R 50 50 1 1 P
+X P2 2 -200 -50 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ZENER-devices
+#
+DEF ZENER-devices D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "ZENER-devices" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ D?
+ SO*
+ SM*
+$ENDFPLIST
+DRAW
+P 5 0 1 8 -70 50 -50 30 -50 -30 -30 -50 -30 -50 N
+P 5 0 1 0 -50 0 50 50 50 -50 -50 0 -50 0 F
+X K 1 -200 0 150 R 50 50 1 1 P
+X A 2 200 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "HighPowerMotorFeatherWing-rescue")(type "Legacy")(uri "${KIPRJMOD}/HighPowerMotorFeatherWing-rescue.lib")(options "")(descr ""))
+  (lib (name "OpenCyphalRobotController07-rescue")(type "Legacy")(uri "${KIPRJMOD}/OpenCyphalRobotController07-rescue.lib")(options "")(descr ""))
+)
