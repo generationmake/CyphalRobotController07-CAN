@@ -1,6 +1,8 @@
 # OpenCyphalRobotController07
 Main controller board for the T07 robot platform and similar robots with a Raspberry Pi Pico to connect via CAN using OpenCyphal and UCANPHY Micro 
 
+![CyphalRobotController07/CAN rendering](docs/images/CyphalRobotController07-CAN_rendering.png)
+
 ## features
 
 - power supply for the whole system
@@ -33,3 +35,12 @@ Main controller board for the T07 robot platform and similar robots with a Raspb
 | 0x48    | ADS1015 | motor measurement               |
 | 0x4A    | BNO055  | IMU                             |
 | 0x50    | 24LC64  | eeprom for storage of settings  |
+## PCB
+
+### Top
+
+![CyphalRobotController07/CAN PCB top](docs/images/CyphalRobotController07-CAN_top.png)
+
+### Bottom
+
+![CyphalRobotController07/CAN PCB bot](docs/images/CyphalRobotController07-CAN_bot.png)
