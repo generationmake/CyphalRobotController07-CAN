@@ -6,8 +6,9 @@
 
   (title_block
     (title "CyphalRobotController07/CAN")
-    (date "2023-10-01")
+    (date "2023-10-02")
     (rev "0.1")
+    (company "generationmake")
   )
 
   (lib_symbols
@@ -564,7 +565,7 @@
     (property "Reference" "R46" (id 0) (at 87.63 66.0399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R_Small" (id 1) (at 87.63 68.5799 0)
+    (property "Value" "10k" (id 1) (at 87.63 68.5799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 85.09 67.31 0)
@@ -617,7 +618,7 @@
     (property "Reference" "R47" (id 0) (at 87.63 111.7599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R_Small" (id 1) (at 87.63 114.2999 0)
+    (property "Value" "10k" (id 1) (at 87.63 114.2999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 85.09 113.03 0)
@@ -684,7 +685,7 @@
     (property "Reference" "C46" (id 0) (at 121.92 46.9962 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C_Small" (id 1) (at 121.92 49.5362 0)
+    (property "Value" "100 nF" (id 1) (at 121.92 49.5362 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 119.38 48.26 0)
@@ -757,7 +758,7 @@
     (property "Reference" "C47" (id 0) (at 121.92 92.7162 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C_Small" (id 1) (at 121.92 95.2562 0)
+    (property "Value" "100 nF" (id 1) (at 121.92 95.2562 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 119.38 93.98 0)

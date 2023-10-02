@@ -6,7 +6,7 @@
 
   (title_block
     (title "CyphalRobotController07/CAN")
-    (date "2023-10-01")
+    (date "2023-10-02")
     (rev "0.1")
     (company "generationmake")
     (comment 4 "This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.")
@@ -1480,17 +1480,6 @@
   (wire (pts (xy 142.24 138.43) (xy 177.8 138.43))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid fef918c8-39c8-46f3-b2fd-2ce84c7f0c8c)
-  )
-
-  (text "You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. (http://ohwr.org/cernohl). \nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY \nQUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL v.1.2  for applicable conditions"
-    (at 177.8 175.26 0)
-    (effects (font (size 1.0922 1.0922)) (justify left bottom))
-    (uuid 3d207811-121c-4467-ac1c-088c458c7549)
-  )
-  (text "Copyright generationmake 2019\nsee full project documentation at https://github.com/generationmake/HighPowerMotorFeatherWing"
-    (at 12.7 16.51 0)
-    (effects (font (size 1.1938 1.1938)) (justify left bottom))
-    (uuid f54f210d-aebc-4df4-8acf-33ac16e3b044)
   )
 
   (label "PWM2_U" (at 166.37 67.31 0)

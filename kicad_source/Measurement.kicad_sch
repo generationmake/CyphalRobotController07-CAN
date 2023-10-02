@@ -6,7 +6,7 @@
 
   (title_block
     (title "CyphalRobotController07/CAN")
-    (date "2023-10-01")
+    (date "2023-10-02")
     (rev "0.1")
     (company "generationmake")
     (comment 4 "This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.")
@@ -725,15 +725,9 @@
     (uuid fbb0708e-d770-469f-a493-997fba79b1c1)
   )
 
-  (text "You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. (http://ohwr.org/cernohl). \nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY \nQUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL v.1.2  for applicable conditions"
-    (at 177.8 175.26 0)
-    (effects (font (size 1.0922 1.0922)) (justify left bottom))
-    (uuid 559076b6-877a-4618-9f7f-eb0be45c097d)
-  )
-  (text "Copyright generationmake 2019\nsee full project documentation at https://github.com/generationmake/HighPowerMotorFeatherWing"
-    (at 12.7 16.51 0)
-    (effects (font (size 1.1938 1.1938)) (justify left bottom))
-    (uuid cfb398d9-898d-4300-b360-c2ff281f5a96)
+  (text "I2C address: 0x48" (at 81.28 142.24 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 62ab33d7-f9a2-4f9a-866a-08aba6d42875)
   )
 
   (label "VREF" (at 177.8 87.63 0)
@@ -1421,7 +1415,7 @@
     (property "Reference" "R28" (id 0) (at 89.9414 161.1884 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "DNI" (id 1) (at 89.9414 158.877 0)
+    (property "Value" "0R" (id 1) (at 89.9414 158.877 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 91.44 156.21 0)

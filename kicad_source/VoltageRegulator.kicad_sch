@@ -6,7 +6,7 @@
 
   (title_block
     (title "CyphalRobotController07/CAN")
-    (date "2023-10-01")
+    (date "2023-10-02")
     (rev "0.1")
     (company "generationmake")
   )
@@ -1519,6 +1519,10 @@
   (text "connector for raspberry pi or similar" (at 237.49 82.55 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 312caa72-a641-4b37-a15d-382df1214743)
+  )
+  (text "I2C address: 0x40" (at 100.33 67.31 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 463a540c-d26f-4f38-82ae-9f920d54f7a1)
   )
   (text "measure up to +- 8.192 A" (at 78.74 19.05 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))

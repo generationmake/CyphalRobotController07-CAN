@@ -24,3 +24,12 @@ Main controller board for the T07 robot platform and similar robots with a Raspb
 - serial port for optional GNSS
 - Neopixel for status
 - CAN with Cyphal support
+
+## I2C devices
+
+| address | device  | description                     |
+|---------|---------|---------------------------------|
+| 0x40    | INA226  | voltage and current measurement |
+| 0x48    | ADS1015 | motor measurement               |
+| 0x4A    | BNO055  | IMU                             |
+| 0x50    | 24LC64  | eeprom for storage of settings  |

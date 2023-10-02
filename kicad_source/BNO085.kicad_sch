@@ -6,7 +6,7 @@
 
   (title_block
     (title "CyphalRobotController07/CAN")
-    (date "2023-10-01")
+    (date "2023-10-02")
     (rev "0.1")
     (company "generationmake")
   )
@@ -934,7 +934,7 @@
     (property "Reference" "R54" (id 0) (at 153.4414 97.8916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "DNI" (id 1) (at 153.4414 100.203 0)
+    (property "Value" "0R" (id 1) (at 153.4414 100.203 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 154.94 102.87 0)
