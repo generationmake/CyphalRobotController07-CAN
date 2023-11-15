@@ -6,7 +6,7 @@
 
   (title_block
     (title "CyphalRobotController07/CAN")
-    (date "2023-10-02")
+    (date "2023-11-15")
     (rev "0.1")
     (company "generationmake")
   )
@@ -2254,7 +2254,7 @@
     (uuid 5790f307-86e2-4d72-ad16-9706d4f52831)
     (property "Reference" "F2" (id 0) (at 165.1 24.13 0))
     (property "Value" "Fuse_Small" (id 1) (at 165.1 26.67 0))
-    (property "Footprint" "Fuse:Fuseholder_Blade_ATO_Littelfuse_Pudenz_2_Pin" (id 2) (at 165.1 29.21 0)
+    (property "Footprint" "generationmake:Fuseholder_Blade_ATO_Littelfuse_Pudenz_2_Pin" (id 2) (at 165.1 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 165.1 29.21 0)
