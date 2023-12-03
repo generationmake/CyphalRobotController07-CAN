@@ -1,4 +1,6 @@
-# CyphalRobotController07/CAN
+<a href="https://opencyphal.org/"><img align="right" src="https://raw.githubusercontent.com/107-systems/.github/main/logo/opencyphal.svg" width="25%"></a>
+CyphalRobotController07/CAN
+==================
 Main controller board for the T07 robot platform and similar robots with a Raspberry Pi Pico to connect via CAN using OpenCyphal and UCANPHY Micro 
 
 ![CyphalRobotController07/CAN rendering](docs/images/CyphalRobotController07-CAN_rendering.png)
