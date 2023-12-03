@@ -1758,7 +1758,7 @@
     (property "Reference" "R45" (id 0) (at 217.3986 135.9916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "2k2" (id 1) (at 217.3986 138.303 0)
+    (property "Value" "1k3" (id 1) (at 217.3986 138.303 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 215.9 140.97 0)
