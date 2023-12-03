@@ -1595,6 +1595,13 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "QUAD1" (shape input) (at 40.64 41.91 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 41464f0d-7e97-4aae-b147-fe8894f8afb6)
+    (property "Referenzen zwischen Schaltplänen" "${INTERSHEET_REFS}" (id 0) (at 32.0868 41.8306 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "OUTPUT1" (shape output) (at 161.29 59.69 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 43a3dfb5-eaf6-4c27-8a07-9ed88c303466)
@@ -1609,6 +1616,13 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "QUAD2" (shape input) (at 40.64 77.47 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 8a0e8206-c511-4d87-a325-d3916ff9acff)
+    (property "Referenzen zwischen Schaltplänen" "${INTERSHEET_REFS}" (id 0) (at 32.0868 77.3906 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "PWM3" (shape output) (at 40.64 54.61 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 9daf08f2-0521-4549-86be-670fddfae282)
@@ -1620,6 +1634,13 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid a12bffb8-3783-4680-98c9-00be95745bf8)
     (property "Referenzen zwischen Schaltplänen" "${INTERSHEET_REFS}" (id 0) (at 32.631 67.2306 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "QUAD3" (shape input) (at 40.64 80.01 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid a9fda34e-91bd-4ec5-a13d-cbd6cfd9c294)
+    (property "Referenzen zwischen Schaltplänen" "${INTERSHEET_REFS}" (id 0) (at 32.0868 79.9306 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1663,6 +1684,13 @@
     (uuid e1d75f98-0d50-44bd-80b4-abf43c77628c)
     (property "Referenzen zwischen Schaltplänen" "${INTERSHEET_REFS}" (id 0) (at -72.39 -7.62 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+  (global_label "QUAD0" (shape input) (at 40.64 39.37 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid e35fb8b5-8402-4dac-80b3-365d78adc1bb)
+    (property "Referenzen zwischen Schaltplänen" "${INTERSHEET_REFS}" (id 0) (at 32.0868 39.2906 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "MCP2515_INT" (shape input) (at 161.29 67.31 0) (fields_autoplaced)
@@ -2584,11 +2612,20 @@
     (path "/29c3546c-5738-4410-83a1-968e85712add/00000000-0000-0000-0000-00005df0ad50"
       (reference "#PWR043") (unit 1) (value "GND") (footprint "")
     )
+    (path "/29c3546c-5738-4410-83a1-968e85712add/5bfbf133-5ed7-46d0-b93e-5a5eeb84dcff"
+      (reference "#PWR044") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/29c3546c-5738-4410-83a1-968e85712add/09e143e1-e556-491f-aa8e-93db6198adbc"
+      (reference "#PWR045") (unit 1) (value "GND") (footprint "")
+    )
     (path "/29c3546c-5738-4410-83a1-968e85712add/00000000-0000-0000-0000-00005df76577"
       (reference "#PWR046") (unit 1) (value "GND") (footprint "")
     )
     (path "/29c3546c-5738-4410-83a1-968e85712add/00000000-0000-0000-0000-00005df6cf5f"
       (reference "#PWR047") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/29c3546c-5738-4410-83a1-968e85712add/900bbe2d-04d2-4af8-9360-ab393613f74d"
+      (reference "#PWR048") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/29c3546c-5738-4410-83a1-968e85712add/00000000-0000-0000-0000-00005df4db84"
       (reference "#PWR049") (unit 1) (value "GND") (footprint "")
@@ -2652,6 +2689,9 @@
     )
     (path "/29c3546c-5738-4410-83a1-968e85712add/00000000-0000-0000-0000-00005ddc7d42"
       (reference "#PWR069") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/29c3546c-5738-4410-83a1-968e85712add/99d4c74d-1d3b-4c55-ad7e-4e7a828dae09"
+      (reference "#PWR070") (unit 1) (value "GND") (footprint "")
     )
     (path "/f22e738d-7eb9-478a-98ea-a8bc262180f6/00000000-0000-0000-0000-00005de82a78"
       (reference "#PWR071") (unit 1) (value "GND") (footprint "")
@@ -3126,6 +3166,12 @@
     )
     (path "/b10c9418-4dea-4782-a464-4f802c008cb3/4de07a5a-50a1-4773-a928-e277f037ab21"
       (reference "J18") (unit 1) (value "Conn_01x02") (footprint "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal")
+    )
+    (path "/29c3546c-5738-4410-83a1-968e85712add/c27c1f18-6b03-4d6c-bd65-28137af7a5e4"
+      (reference "J19") (unit 1) (value "S6B-XH-A") (footprint "Connector_JST:JST_XH_S6B-XH-A_1x06_P2.50mm_Horizontal")
+    )
+    (path "/29c3546c-5738-4410-83a1-968e85712add/9ba7b6bd-56ab-4aef-8340-78cdea895920"
+      (reference "J20") (unit 1) (value "S6B-XH-A") (footprint "Connector_JST:JST_XH_S6B-XH-A_1x06_P2.50mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000625bb6fe"
       (reference "L1") (unit 1) (value "Label") (footprint "generationmake:generationmake_small_silk")
