@@ -2896,6 +2896,12 @@
     (path "/6c7bda25-c20e-4e94-995a-5eb8ebde7262/93082212-11b5-4206-8afc-1a3fa0b83d8e"
       (reference "#PWR0159") (unit 1) (value "+3.3V") (footprint "")
     )
+    (path "/b10c9418-4dea-4782-a464-4f802c008cb3/27118d15-ef6e-439c-8207-5770468e20c2"
+      (reference "#PWR0160") (unit 1) (value "+BATT") (footprint "")
+    )
+    (path "/b10c9418-4dea-4782-a464-4f802c008cb3/3fd5e52e-b622-478b-935e-783d574055e3"
+      (reference "#PWR0161") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000062524b56"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -3117,6 +3123,9 @@
     )
     (path "/46e8ce0d-b0e7-44f3-a3f8-c9024e107028"
       (reference "J17") (unit 1) (value "PinHeader_1x05") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
+    )
+    (path "/b10c9418-4dea-4782-a464-4f802c008cb3/4de07a5a-50a1-4773-a928-e277f037ab21"
+      (reference "J18") (unit 1) (value "Conn_01x02") (footprint "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000625bb6fe"
       (reference "L1") (unit 1) (value "Label") (footprint "generationmake:generationmake_small_silk")
