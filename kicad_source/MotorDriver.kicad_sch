@@ -6,7 +6,7 @@
 
   (title_block
     (title "CyphalRobotController07/CAN")
-    (date "2023-12-03")
+    (date "2024-01-04")
     (rev "0.2")
     (company "generationmake")
     (comment 4 "This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.")
@@ -1920,7 +1920,7 @@
     (property "Value" "x" (id 1) (at 254.7112 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal" (id 2) (at 250.19 50.8 0)
+    (property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" (id 2) (at 250.19 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 252.73 52.07 0))
@@ -1937,7 +1937,7 @@
     (property "Value" "x" (id 1) (at 254.7112 121.92 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal" (id 2) (at 250.19 119.38 0)
+    (property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" (id 2) (at 250.19 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 252.73 120.65 0))
