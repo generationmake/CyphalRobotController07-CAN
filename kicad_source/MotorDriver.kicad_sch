@@ -6,7 +6,7 @@
 
   (title_block
     (title "CyphalRobotController07/CAN")
-    (date "2024-01-04")
+    (date "2024-01-21")
     (rev "0.2")
     (company "generationmake")
     (comment 4 "This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.")
@@ -3011,7 +3011,7 @@
   (symbol (lib_id "power:VCOM") (at 251.46 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 34b66a16-dee4-4c29-bdba-a98382440c94)
-    (property "Reference" "#PWR?" (id 0) (at 251.46 153.67 0)
+    (property "Reference" "#PWR0173" (id 0) (at 251.46 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCOM" (id 1) (at 251.46 144.78 0))
@@ -3075,7 +3075,7 @@
   (symbol (lib_id "power:VCOM") (at 255.27 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 60f26f94-1bb8-4efc-8f30-f83cde330d36)
-    (property "Reference" "#PWR?" (id 0) (at 255.27 82.55 0)
+    (property "Reference" "#PWR0174" (id 0) (at 255.27 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCOM" (id 1) (at 255.27 73.66 0))

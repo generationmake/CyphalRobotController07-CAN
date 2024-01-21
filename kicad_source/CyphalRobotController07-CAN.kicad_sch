@@ -6,7 +6,7 @@
 
   (title_block
     (title "CyphalRobotController07/CAN")
-    (date "2024-01-04")
+    (date "2024-01-21")
     (rev "0.2")
     (company "generationmake")
   )
@@ -2654,7 +2654,7 @@
     (uuid 00000000-0000-0000-0000-0000629e332f)
     (property "Reference" "J2" (id 0) (at 100.33 14.605 0))
     (property "Value" "RASPBERRYPI_PICO" (id 1) (at 100.33 16.9164 0))
-    (property "Footprint" "generationmake:RASPI_PICO_SOLDER_Kopie" (id 2) (at 100.33 44.45 0)
+    (property "Footprint" "generationmake:RASPI_PICO_SOLDER_NO_MOUNTING" (id 2) (at 100.33 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 100.33 44.45 0)
@@ -2943,7 +2943,7 @@
   (symbol (lib_id "power:VCOM") (at 53.34 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4eb5a8e0-4e6e-4b4e-8de1-2650692615d2)
-    (property "Reference" "#PWR?" (id 0) (at 53.34 93.98 0)
+    (property "Reference" "#PWR0172" (id 0) (at 53.34 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCOM" (id 1) (at 53.34 85.09 0))
@@ -3862,14 +3862,14 @@
     (path "/d8212d57-5203-44fd-a565-0c0a926aa35c"
       (reference "#PWR0171") (unit 1) (value "GND") (footprint "")
     )
-    (path "/29c3546c-5738-4410-83a1-968e85712add/34b66a16-dee4-4c29-bdba-a98382440c94"
-      (reference "#PWR?") (unit 1) (value "VCOM") (footprint "")
-    )
     (path "/4eb5a8e0-4e6e-4b4e-8de1-2650692615d2"
-      (reference "#PWR?") (unit 1) (value "VCOM") (footprint "")
+      (reference "#PWR0172") (unit 1) (value "VCOM") (footprint "")
+    )
+    (path "/29c3546c-5738-4410-83a1-968e85712add/34b66a16-dee4-4c29-bdba-a98382440c94"
+      (reference "#PWR0173") (unit 1) (value "VCOM") (footprint "")
     )
     (path "/29c3546c-5738-4410-83a1-968e85712add/60f26f94-1bb8-4efc-8f30-f83cde330d36"
-      (reference "#PWR?") (unit 1) (value "VCOM") (footprint "")
+      (reference "#PWR0174") (unit 1) (value "VCOM") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000062524b56"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -4058,7 +4058,7 @@
       (reference "J1") (unit 1) (value "BM04B-SRSS-TB") (footprint "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000629e332f"
-      (reference "J2") (unit 1) (value "RASPBERRYPI_PICO") (footprint "generationmake:RASPI_PICO_SOLDER_Kopie")
+      (reference "J2") (unit 1) (value "RASPBERRYPI_PICO") (footprint "generationmake:RASPI_PICO_SOLDER_NO_MOUNTING")
     )
     (path "/00000000-0000-0000-0000-00006250779d"
       (reference "J3") (unit 1) (value "BM04B-SRSS-TB") (footprint "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical")
