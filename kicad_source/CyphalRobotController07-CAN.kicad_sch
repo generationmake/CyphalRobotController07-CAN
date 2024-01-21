@@ -3439,8 +3439,14 @@
     (path "/e2f79217-9a6a-4b74-9bc6-7956269a1131"
       (reference "#PWR018") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005ed92f9c/7b2798b8-6820-46d4-a2fa-13da323a7dd1"
+      (reference "#PWR019") (unit 1) (value "GND") (footprint "")
+    )
     (path "/29c3546c-5738-4410-83a1-968e85712add/70c49bc1-b576-4ba8-b6d8-7621974c3753"
       (reference "#PWR020") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f6991e94-53cb-4fca-aa37-9cb14fb10fcb/84d81db2-c9fa-4126-9b65-96267655d0da"
+      (reference "#PWR021") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ed92f9c/00000000-0000-0000-0000-00005eda8fcf"
       (reference "#PWR022") (unit 1) (value "+3.3V") (footprint "")
@@ -4035,6 +4041,12 @@
     )
     (path "/3e57047b-7dee-4872-9a3d-cd621c3ff98a"
       (reference "C55") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005ed92f9c/43036fea-b440-4692-9943-26c77d3ae1e3"
+      (reference "D1") (unit 1) (value "NUP2105L") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/f6991e94-53cb-4fca-aa37-9cb14fb10fcb/b4a7abc4-6322-4e57-824a-14db78590acc"
+      (reference "D2") (unit 1) (value "SMCJ40A") (footprint "Diode_SMD:D_SMC")
     )
     (path "/00000000-0000-0000-0000-00005ed92f9c/00000000-0000-0000-0000-000062500ccf"
       (reference "D3") (unit 1) (value "MBR0530T") (footprint "Diode_SMD:D_SOD-123")
