@@ -1023,6 +1023,52 @@
         )
       )
     )
+    (symbol "power:VCOM" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "VCOM" (id 1) (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"VCOM\"" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "VCOM_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 1.27)
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type outline))
+        )
+      )
+      (symbol "VCOM_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "VCOM" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
   )
 
   (junction (at 67.31 91.44) (diameter 0) (color 0 0 0 0)
@@ -1655,6 +1701,10 @@
   (wire (pts (xy 217.17 50.8) (xy 217.17 45.72))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid bac148ce-bee6-442d-a044-171751202a44)
+  )
+  (wire (pts (xy 53.34 90.17) (xy 53.34 91.44))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid bad91a98-0076-49dd-b2a3-85a59856f069)
   )
   (wire (pts (xy 153.67 105.41) (xy 165.1 105.41))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -2890,6 +2940,22 @@
     (pin "5" (uuid 3b89caa4-82d3-4ce9-afc9-b51c2437f9f5))
   )
 
+  (symbol (lib_id "power:VCOM") (at 53.34 90.17 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 4eb5a8e0-4e6e-4b4e-8de1-2650692615d2)
+    (property "Reference" "#PWR?" (id 0) (at 53.34 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCOM" (id 1) (at 53.34 85.09 0))
+    (property "Footprint" "" (id 2) (at 53.34 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 53.34 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 941003e6-f044-4838-8794-7f975d807870))
+  )
+
   (symbol (lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin") (at 157.48 148.59 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 551049a7-4d09-455c-ac39-872acb209e74)
@@ -3442,9 +3508,6 @@
     (path "/29c3546c-5738-4410-83a1-968e85712add/00000000-0000-0000-0000-00005df0ad50"
       (reference "#PWR043") (unit 1) (value "GND") (footprint "")
     )
-    (path "/29c3546c-5738-4410-83a1-968e85712add/5bfbf133-5ed7-46d0-b93e-5a5eeb84dcff"
-      (reference "#PWR044") (unit 1) (value "+3.3V") (footprint "")
-    )
     (path "/29c3546c-5738-4410-83a1-968e85712add/09e143e1-e556-491f-aa8e-93db6198adbc"
       (reference "#PWR045") (unit 1) (value "GND") (footprint "")
     )
@@ -3453,9 +3516,6 @@
     )
     (path "/29c3546c-5738-4410-83a1-968e85712add/00000000-0000-0000-0000-00005df6cf5f"
       (reference "#PWR047") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/29c3546c-5738-4410-83a1-968e85712add/900bbe2d-04d2-4af8-9360-ab393613f74d"
-      (reference "#PWR048") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/29c3546c-5738-4410-83a1-968e85712add/00000000-0000-0000-0000-00005df4db84"
       (reference "#PWR049") (unit 1) (value "GND") (footprint "")
@@ -3801,6 +3861,15 @@
     )
     (path "/d8212d57-5203-44fd-a565-0c0a926aa35c"
       (reference "#PWR0171") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/29c3546c-5738-4410-83a1-968e85712add/34b66a16-dee4-4c29-bdba-a98382440c94"
+      (reference "#PWR?") (unit 1) (value "VCOM") (footprint "")
+    )
+    (path "/4eb5a8e0-4e6e-4b4e-8de1-2650692615d2"
+      (reference "#PWR?") (unit 1) (value "VCOM") (footprint "")
+    )
+    (path "/29c3546c-5738-4410-83a1-968e85712add/60f26f94-1bb8-4efc-8f30-f83cde330d36"
+      (reference "#PWR?") (unit 1) (value "VCOM") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000062524b56"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
