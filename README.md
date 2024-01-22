@@ -11,10 +11,10 @@ Main controller board for the T07 robot platform and similar robots with a Raspb
   - 5 V for the cyphal network and embedded board (Raspberry Pi or Beagle Bone Black)
   - switchable output of battery voltage to supply additional hardware
   - switchable output of battery voltage to supply LED or head lamp
-  - Input voltage up to 25 V
+  - Input voltage up to 40 V
   - Blade type fuse (ATO fuse)
   - Power Pole connector
-  - measurement of input voltage and current with TI INA226
+  - measurement of input voltage and current with TI INA232
 - control 2 DC motors
   - 2 quad encoders for motors
   - emergency stop
@@ -83,7 +83,7 @@ Main controller board for the T07 robot platform and similar robots with a Raspb
 
 | address | device  | description                     |
 |---------|---------|---------------------------------|
-| 0x40    | INA226  | voltage and current measurement |
+| 0x40    | INA232  | voltage and current measurement |
 | 0x48    | ADS1015 | motor measurement               |
 | 0x4A    | BNO055  | IMU                             |
 | 0x50    | 24LC64  | eeprom for storage of settings  |
