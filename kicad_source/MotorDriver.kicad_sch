@@ -1720,6 +1720,11 @@
     (uuid ff5a837c-d0f9-4cc5-bd3d-7bffe284cb8b)
   )
 
+  (text "max 40V" (at 200.66 20.32 0)
+    (effects (font (size 1.524 1.524)) (justify left bottom))
+    (uuid 0eb398f8-aa99-43fb-b2b8-a5ec1550698c)
+  )
+
   (label "PWM2_U" (at 166.37 67.31 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 04a6bdf1-7d02-45d5-8ad6-289902393267)

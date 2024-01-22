@@ -4187,7 +4187,7 @@
       (reference "L3") (unit 1) (value "Label") (footprint "generationmake:opencyphal_small")
     )
     (path "/f6991e94-53cb-4fca-aa37-9cb14fb10fcb/cc7c52c2-c9a4-4414-a92d-1c661fc30d72"
-      (reference "L4") (unit 1) (value "744373580022") (footprint "Inductor_SMD:L_Wuerth_HCI-7050")
+      (reference "L4") (unit 1) (value "744373580022") (footprint "Inductor_SMD:L_Wuerth_HCM-1052")
     )
     (path "/f6991e94-53cb-4fca-aa37-9cb14fb10fcb/00000000-0000-0000-0000-00005de3ef57"
       (reference "L5") (unit 1) (value "74437346220") (footprint "Inductor_SMD:L_Wuerth_HCI-7050")
@@ -4226,7 +4226,7 @@
       (reference "Q1") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/f6991e94-53cb-4fca-aa37-9cb14fb10fcb/d3213fcc-7041-4e56-b164-a756cd53bd33"
-      (reference "Q2") (unit 1) (value "IPD90P03P4L- 04") (footprint "Package_TO_SOT_SMD:TO-252-2")
+      (reference "Q2") (unit 1) (value "IPD90P04P4L- 04") (footprint "Package_TO_SOT_SMD:TO-252-2")
     )
     (path "/00000000-0000-0000-0000-000062508159"
       (reference "R1") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
