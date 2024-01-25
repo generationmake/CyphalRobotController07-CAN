@@ -6,7 +6,7 @@
 
   (title_block
     (title "CyphalRobotController07/CAN")
-    (date "2024-01-21")
+    (date "2024-01-25")
     (rev "0.2")
     (company "generationmake")
   )
@@ -2439,7 +2439,7 @@
     (property "Value" "BM04B-SRSS-TB" (id 1) (at 121.3612 152.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" (id 2) (at 119.38 151.13 0)
+    (property "Footprint" "generationmake:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" (id 2) (at 119.38 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 119.38 151.13 0)
@@ -2555,7 +2555,7 @@
     (property "Value" "BM04B-SRSS-TB" (id 1) (at 55.3212 173.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" (id 2) (at 53.34 172.72 0)
+    (property "Footprint" "generationmake:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" (id 2) (at 53.34 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 53.34 172.72 0)
@@ -3038,7 +3038,7 @@
     (uuid 551049a7-4d09-455c-ac39-872acb209e74)
     (property "Reference" "J4" (id 0) (at 157.48 139.7 0))
     (property "Value" "B3B-PH-SM4-TB" (id 1) (at 157.48 142.24 0))
-    (property "Footprint" "Connector_JST:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical" (id 2) (at 157.48 148.59 0)
+    (property "Footprint" "generationmake:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical" (id 2) (at 157.48 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 157.48 148.59 0)
@@ -4209,16 +4209,16 @@
       (reference "F2") (unit 1) (value "Fuse_Small") (footprint "generationmake:Fuseholder_Blade_ATO_Littelfuse_Pudenz_2_Pin")
     )
     (path "/00000000-0000-0000-0000-00006250ded9"
-      (reference "J1") (unit 1) (value "BM04B-SRSS-TB") (footprint "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical")
+      (reference "J1") (unit 1) (value "BM04B-SRSS-TB") (footprint "generationmake:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000629e332f"
       (reference "J2") (unit 1) (value "RASPBERRYPI_PICO") (footprint "generationmake:RASPI_PICO_SOLDER_NO_MOUNTING")
     )
     (path "/00000000-0000-0000-0000-00006250779d"
-      (reference "J3") (unit 1) (value "BM04B-SRSS-TB") (footprint "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical")
+      (reference "J3") (unit 1) (value "BM04B-SRSS-TB") (footprint "generationmake:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical")
     )
     (path "/551049a7-4d09-455c-ac39-872acb209e74"
-      (reference "J4") (unit 1) (value "B3B-PH-SM4-TB") (footprint "Connector_JST:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical")
+      (reference "J4") (unit 1) (value "B3B-PH-SM4-TB") (footprint "generationmake:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005ed92f9c/00000000-0000-0000-0000-000062500ca8"
       (reference "J5") (unit 1) (value "BM04B-GHS-TBT") (footprint "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical")
