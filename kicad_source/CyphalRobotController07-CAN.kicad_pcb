@@ -7,7 +7,7 @@
   (paper "A4")
   (title_block
     (title "CyphalRobotController07/CAN")
-    (date "2024-01-24")
+    (date "2024-01-25")
     (rev "0.2")
     (company "generationmake")
   )
@@ -11869,7 +11869,7 @@
   (gr_text "ANALOG INPUT" (at 129.3 58.8) (layer "F.SilkS") (tstamp e6c19548-136c-4ab0-a50b-ea7bc10f953c)
     (effects (font (size 1 1) (thickness 0.25)))
   )
-  (gr_text "Copyright generationmake 2019\nsee full project documentation at \nhttps://github.com/generationmake/HighPowerMotorFeatherWing\n\nThis   documentation   describes   Open   Hardware   and   is   licensed   \nunder   the CERN OHL v. 1.2.\nYou may redistribute and modify this documentation under the terms \nof the CERN OHL v.1.2. (http://ohwr.org/cernohl). This documentation \nis distributed WITHOUT   ANY   EXPRESS   OR   IMPLIED   WARRANTY, \nINCLUDING   OF MERCHANTABILITY,   SATISFACTORY   QUALITY   AND \nFITNESS   FOR   A PARTICULAR   PURPOSE.   Please   see   the   CERN   \nOHL   v.1.2  for   applicable conditions" (at 179.8 148.8) (layer "Cmts.User") (tstamp be01b353-609e-4e8c-a5cd-9b37ee39e4dd)
+  (gr_text "Copyright generationmake 2024\nsee full project documentation at \nhttps://github.com/generationmake/CyphalRobotController07-CAN\n\nThis source describes Open Hardware and is licensed under the CERN-OHL-W v2\n\nYou may redistribute and modify this documentation and make products\nusing it under the terms of the CERN-OHL-W v2 (https:/cern.ch/cern-ohl).\nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED\nWARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY\nAND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-W v2\nfor applicable conditions." (at 179.8 148.8) (layer "Cmts.User") (tstamp be01b353-609e-4e8c-a5cd-9b37ee39e4dd)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
 
