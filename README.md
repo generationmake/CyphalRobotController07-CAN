@@ -11,10 +11,10 @@ Main controller board for the T07 robot platform and similar robots with a Raspb
   - 5 V for the cyphal network and embedded board (Raspberry Pi or Beagle Bone Black)
   - switchable output of battery voltage to supply additional hardware
   - switchable output of battery voltage to supply LED or head lamp
-  - Input voltage up to 25 V
+  - Input voltage up to 40 V
   - Blade type fuse (ATO fuse)
   - Power Pole connector
-  - measurement of input voltage and current with TI INA226
+  - measurement of input voltage and current with TI INA232
 - control 2 DC motors
   - 2 quad encoders for motors
   - emergency stop
@@ -83,10 +83,146 @@ Main controller board for the T07 robot platform and similar robots with a Raspb
 
 | address | device  | description                     |
 |---------|---------|---------------------------------|
-| 0x40    | INA226  | voltage and current measurement |
+| 0x40    | INA232  | voltage and current measurement |
 | 0x48    | ADS1015 | motor measurement               |
 | 0x4A    | BNO055  | IMU                             |
 | 0x50    | 24LC64  | eeprom for storage of settings  |
+
+## Pinout
+
+### I2C (J1)
+
+compatible to the Sparkfun qwiic standard (https://www.sparkfun.com/qwiic). JST SH 1mm 4-pin.
+
+| pin number | signal        |
+|:----------:|:-------------:|
+| 1          | GND           |
+| 2          | +3V3          |
+| 3          | I2C_SDA       |
+| 4          | I2C_SCL       |
+
+### serial (J3)
+
+JST SH 1mm 4-pin.
+
+| pin number | signal        |
+|:----------:|:-------------:|
+| 1          | GND           |
+| 2          | +3V3          |
+| 3          | SER_TX        |
+| 4          | SER_RX        |
+
+### neopixel connector (J4)
+
+connector for Adafruit Neopixel RGB leds (https://learn.adafruit.com/adafruit-neopixel-uberguide/the-magic-of-neopixels). JST PH 2mm 3-pin.
+
+| pin number | signal        |
+|:----------:|:-------------:|
+| 1          | neopixel      |
+| 2          | +5V           |
+| 3          | GND           |
+
+### CAN (J5 and J6)
+
+UCANPHY Micro connector, according to the UCANPHY_Specification (https://forum.opencyphal.org/t/cyphal-can-physical-layer-specification-v1-0/1471). JST GH 1.25mm 4-pin.
+
+| pin number | signal        |
+|:----------:|:-------------:|
+| 1          | +5V           |
+| 2          | CANH          |
+| 3          | CANL          |
+| 4          | GND           |
+
+### emergency stop (J7)
+
+screw terminal 3.81 mm 2-pin.
+
+| pin number | signal        |
+|:----------:|:-------------:|
+| 1          | EM_STOP       |
+| 2          | GND           |
+
+### motor output (J8 and J9)
+
+screw terminal 3.81 mm 2-pin.
+
+| pin number | signal        |
+|:----------:|:-------------:|
+| 1          | MOTOR+        |
+| 2          | MOTOR-        |
+
+### power input (J10 and J11)
+
+screw terminal 3.81 mm 2-pin or Anderson Power Pole.
+
+| pin number | signal        |
+|:----------:|:-------------:|
+| 1          | +BATT         |
+| 2          | GND           |
+
+### power output (J12)
+
+screw terminal 3.81 mm 2-pin.
+
+| pin number | signal        |
+|:----------:|:-------------:|
+| 1          | +5V           |
+| 2          | GND           |
+
+### switched power output (J13 and J14)
+
+screw terminal 3.81 mm 2-pin.
+
+| pin number | signal        |
+|:----------:|:-------------:|
+| 1          | +OUT          |
+| 2          | GND           |
+
+### quad encoder input (J15 and J16)
+
+This is a regular 0.1-inch pin header.
+
+| pin number | signal        |
+|:----------:|:-------------:|
+| 1          | GND           |
+| 2          | +3V3          |
+| 3          | QUAD_A        |
+| 4          | QUAD_B        |
+
+### analog input (J17)
+
+This is a regular 0.1-inch pin header.
+
+| pin number | signal        |
+|:----------:|:-------------:|
+| 1          | GND           |
+| 2          | +3V3          |
+| 3          | ANALOG_INPUT2 |
+| 4          | ANALOG_INPUT1 |
+| 5          | ANALOG_INPUT0 |
+
+### power output (J18)
+
+screw terminal 3.81 mm 2-pin.
+
+| pin number | signal        |
+|:----------:|:-------------:|
+| 1          | +BATT         |
+| 2          | GND           |
+
+### combined motor and encoder output (J19 and J20)
+
+This is a 0.1-inch header. It should fit to thid motor: https://precisionminidrives.com/product/37mm-gear-motor-with-encoder-%e2%88%92-50mm-type-model-nfp-jgb37-3530-en
+
+| pin number | signal        |
+|:----------:|:-------------:|
+| 1          | MOTOR+        |
+| 2          | MOTOR-        |
+| 1          | GND           |
+| 2          | +3V3          |
+| 3          | QUAD_A        |
+| 4          | QUAD_B        |
+
 ## PCB
 
 ### Top
